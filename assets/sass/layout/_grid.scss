@@ -1,0 +1,24 @@
+.main_grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1% 1%;
+  padding: 2%;
+}
+.item {
+  border: solid 1px $black;
+  padding: 2%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .main_grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1% 1%;
+    padding: 2%;
+    margin-bottom: 30px;
+  }
+  input{
+    display: block;
+  }
+}

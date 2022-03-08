@@ -1,0 +1,16 @@
+/* Inputs */
+input{
+    border-radius: 5px;
+    padding: 3px;
+    outline: none;
+}
+input:focus{
+    background-color: $tangerine;
+}
+
+.footer_button{
+   background-color: $tangerine; 
+}
+.footer_button:hover{
+    background-color: $white;
+}

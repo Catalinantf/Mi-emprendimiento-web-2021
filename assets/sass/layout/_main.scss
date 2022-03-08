@@ -1,0 +1,50 @@
+.main_grid, .aside{
+    h6, i, p, h5{
+        margin: 3% 0 3% 0;
+    }
+    h4{
+        color: $white;
+        border:solid 1px $sable
+    }
+}
+.aside_list {
+    list-style: circle;
+    a{
+        margin: 9% 3%;
+        color: $purple;
+        text-decoration: none;
+    }
+}
+
+
+.aside_img{
+width: 30%;
+align-self: center;
+margin: 2%;
+}
+
+.svg_section{
+    margin: 9% 0;
+    width: 50%;
+    align-self: center;
+
+}
+.etiqueta{
+    animation: vaiven 4s infinite linear;
+}
+@keyframes vaiven {
+    0% {
+        transform: translate(0, 0);
+      }
+    50% {
+        transform: translate(30%, 0);
+      }}
+
+.rueda{
+   animation: rotacion 5s infinite linear;
+}
+
+@keyframes rotacion {
+    from { transform:rotate(0deg); transform-origin: 80% 80%}
+    to { transform: rotate(180deg);transform-origin: 80% 80% }
+}

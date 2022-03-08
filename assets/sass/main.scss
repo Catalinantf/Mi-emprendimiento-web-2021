@@ -1,0 +1,25 @@
+// main.scss # Manifest File
+
+// abstracts
+@import 'abstracts/variables';
+
+// Vendors
+@import 'vendors/bootstrap-5.0.2/bootstrap'; 
+//@import 'vendors/jquery-ui'; 
+
+// Base
+@import 'base/reset';
+@import 'base/typography'; 
+
+// Layout
+@import 'layout/header';
+@import 'layout/main';  
+@import 'layout/grid';
+@import 'layout/navigation';
+@import 'layout/footer';   
+
+// Components
+@import 'components/inputs'; 
+
+ // Pages
+// Theme

@@ -1,0 +1,17 @@
+footer{
+    background-color: $black;
+    color: $white;
+    text-align: center;
+
+    a{
+        color:$white;
+        text-decoration:none;
+    }
+    a:hover{
+        color: $orange;
+    }
+    h4{
+        padding-top:3px ;
+        margin-bottom: 0;
+    }
+}

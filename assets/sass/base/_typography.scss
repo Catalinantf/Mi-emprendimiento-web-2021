@@ -1,0 +1,52 @@
+/* Base Typography*/
+
+.navigation a {
+  font-family: $poppins;
+  font-weight: $bold;
+}
+
+.main_grid,
+.aside {
+  font-family: $ubuntu;
+  h5 {
+    font-size: $x-large;
+    font-weight: $bold;
+  }
+  h6 {
+    font-size: $large;
+    font-weight: $bold;
+  }
+  p {
+    font-size: $medium;
+    font-weight: $regular;
+  }
+  a {
+    font-family: $poppins;
+    font-size: $medium;
+  }
+  i{
+    color:$black;
+  }
+}
+.aside h4{
+  font-family: $poppins;
+  font-size: $large;
+  font-weight: $bold; 
+}
+.aside_button {
+  font-weight: $bold;
+}
+
+.aside_list {
+  font-weight: $regular;
+}
+
+footer {
+  font-family: $poppins;
+  font-size: $medium;
+  font-weight: $large;
+  h4{
+    font-size: $medium; 
+  }
+}
+
